@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Char generator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2 class="title">8x8 LED Matrix Char generator</h2>
+        <div class="wraper">
+            <div class="matrix-container">
+                <div class="matrix">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="options">
+            <button class="btn btn-delete" onclick="deleteArray();">Clean</button>
+            <button class="btn btn-generate" onclick="generateArray();">Generarte array</button>
+        </div>
+
+        <textarea class="result" placeholder="Results"></textarea>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="script.js"></script>    
+</body>
+</html>

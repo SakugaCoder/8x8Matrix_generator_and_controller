@@ -1,4 +1,4 @@
-# 8x8 LED Matrix char generator and base code
+# 8x8 LED Matrix char generator and controller.
 
 ![Matrix working](https://github.com/SakugaCoder/8x8Matrix_generator_and_controller/blob/master/assets/pics/matrix_working.gif)
 
